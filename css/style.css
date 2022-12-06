@@ -371,6 +371,10 @@
     margin-right: 0px;
 }
 
+.underline{
+    text-decoration: none;
+    color: inherit;
+}
 .projects-list {
     list-style: none;
     display: flex;
