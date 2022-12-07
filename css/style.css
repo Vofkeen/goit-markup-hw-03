@@ -371,6 +371,7 @@ address{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .direction-list .item {
@@ -426,9 +427,10 @@ address{
 .direction-item {
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid var(--color-line-direction-item);
+    padding-left: 24px;
+    padding-right: 24px;
+    border-left: 1px solid var(--color-line-direction-item);
+    border-right: 1px solid var(--color-line-direction-item);
+    border-bottom: 1px solid var(--color-line-direction-item);
 }
 
-.main-direction {
-    display: flex;
-}
